@@ -7,8 +7,8 @@ class Song
   end
 
   def artist_name
-    if self.artist == true
-      self.artist_name = @artist.name
+    if song.artist == true
+      song.artist_name = artist.name
     else
       return nil
     end
