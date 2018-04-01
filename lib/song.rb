@@ -6,7 +6,7 @@ class Song
     @name = name
   end
 
-  def artist_name
+  def artist_name(name)
     if self.artist == true
       self.artist_name = self.artist.name
       self.artist_name
