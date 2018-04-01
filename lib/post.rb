@@ -7,9 +7,8 @@ class Post
   end
 
   def author_name
-    if self.author == true
-      self.author = author
-      self.author_name = author.name
+    if self.author 
+      self.author.name
     else
       return nil
     end
