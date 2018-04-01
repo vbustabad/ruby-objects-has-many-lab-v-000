@@ -9,7 +9,7 @@ class Song
 
   def artist_name
     if self.artist == true
-      artist.name
+      Artist.new(name)
     else
       return nil
     end
